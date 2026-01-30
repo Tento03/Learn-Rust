@@ -6,5 +6,12 @@ fn main() {
     println!("a: {}",a);
     println!("b: {}",b);
     println!("c: {}",c);
+
+    let s1=String::from("Hi Tento");
+    let s2=s1;
+
+    //The ownership of value s1 is moved to s2
+    // println!("{}",s1); 
+    println!("{}",s2);
     
 }
